@@ -64,7 +64,6 @@ const SideBar = () => {
             <span className="info1">Checkout my playlist!</span>
             <span className="info2"><button onClick={handleLogin}>Login to Spotify</button> </span>
             <SpotifyGetPlaylists />
-            <img className="playList" src={spotify} alt="spotify"/>
           </div>
           
         </div>
